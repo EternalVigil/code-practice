@@ -1,0 +1,46 @@
+<!--
+  =====================
+  Carousel Challenge
+  =====================  
+
+  Use CSS & JS to create a sliding gallery out of the 
+  markup below.
+  
+  
+  Expected Behavior 
+  ===========
+  - Gallery should transition with a sliding effect
+  - Gallery should support previous/next paddle controls 
+  - Gallery should support navigation indicating number of 
+    available slides and the current index
+  - BONUS: Gallery should wrap around and loop infinitely
+  
+
+  Rules
+  ===========
+  - Do not add any new markup. Modifying the existing HTML 
+    with attributes and CSS class names is okay.
+-->
+<link rel='stylesheet' type='text/css' href='styles.css'>
+<div class="gallery">
+  <div class="gallery-container">
+    <img class="gallery-item active" src="http://fakeimg.pl/300/?text=1">
+    <img class="gallery-item nextSlide" src="http://fakeimg.pl/300/?text=2">
+    <img class="gallery-item" src="http://fakeimg.pl/300/?text=3">
+    <img class="gallery-item" src="http://fakeimg.pl/300/?text=4">
+    <img class="gallery-item" src="http://fakeimg.pl/300/?text=5">
+  </div>
+  <div class="gallery-controls">
+    <button class='previousImageButton' onclick='selectPreviousImage();'>
+      Back
+    </button>
+    <button class='currentImagePlace'>
+      <span class='currentImage'>X</span> / <span class='totalImages'>Y</span>
+    </button>
+    <button class='nextImageButton' onclick='selectNextImage();'>
+      Next
+    </button>
+  </div>
+</div>
+
+<script type='text/javascript' src='scripts.js'></script>

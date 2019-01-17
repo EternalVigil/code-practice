@@ -1,0 +1,36 @@
+.mainContainer {
+	clear: both;
+	display: block;
+	float: left;
+	width: 50%;
+	height: auto;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+}
+
+.mainContainer ul {
+	list-style: none;
+}
+
+.accordianContent i {
+	display: inline-block;
+	float: left;
+}
+
+.accordianContent p {
+	display: inline-block;
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+.accordianContent {
+	/*display: none;*/
+	overflow: hidden;
+}
+
+.accordingContent[status:"active"] {
+	display: block;
+	float: left;
+}
