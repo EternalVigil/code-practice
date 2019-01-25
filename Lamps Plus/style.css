@@ -1,0 +1,162 @@
+/* Global resets */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  color: #424242;
+  line-height: 1.4;
+}
+/* COLORS: 
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+/* Your CSS goes here */
+#projectFundContainer {
+    display: block;
+    float: left;
+    max-width: 350px;
+    padding: 0;
+}
+
+.stretchContainer {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    background-color: #424242;
+    margin: auto auto 16px;
+    padding: 14px 0;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: .25rem;
+}
+
+.stretchContainerArrow {
+    position: relative;
+    float: left;
+    left: 80%;
+    margin-top: 35px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 8px solid #424242;
+}
+
+.campaignDetails {
+    height: auto;
+    border: 1px solid #eaeaea;
+    margin-bottom: 4%;
+}
+
+.amountToGoal {
+    font-weight: 900;
+}
+
+.progressBar {
+    clear: both;
+    display: block;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.collectedAmount {
+    display: block;
+    float: left;
+    width: 75%;
+    min-height: 15px;
+    background-color: #EF532D;
+}
+
+.fundDescription {
+    display: block;
+    float: left;
+    padding: 0 10%;
+    text-align: left;
+}
+
+.fundDescription p {
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
+.timeRemaining {
+    color: #EF5F3C;
+    font-weight: 600;
+}
+
+.donorCount {
+    font-weight: 800;
+}
+
+.donationActions,
+.socialButtons {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: 2rem;
+}
+
+.donateAmount {
+    width: 45%;
+    height: 3.5rem;
+    min-height: 30px;
+    margin: 0 0 0 5%;
+    padding: 0% 8% 0 6%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: .5rem;
+    border: .5px solid silver;
+}
+
+.donateNow {
+    width: 50%;
+    min-height: 30px;
+    margin: 0 5%;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    background-color: #1CBC2C;
+    border-radius: .5rem;
+}
+
+.currencyType {
+    position: absolute;
+    font-size: 1.25rem;
+    color: silver;
+    margin: 15px 0 0 25px;
+}
+
+.donationReason {
+    position: relative;
+    width: 100%;
+    margin: 2% 0 4% 0;
+    padding: 0 0 0 5%;
+    color: #20A1D4;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.saveCampaign,
+.socialShare {
+    display: block;
+    float: left;
+    flex-grow: 1;
+    min-height: 40px;
+    width: 50%;
+    margin: 0 1%;
+    padding: 0 2.5%;
+    border: 1px solid silver;
+    border-radius: .5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 650;
+    color: #777;
+}
