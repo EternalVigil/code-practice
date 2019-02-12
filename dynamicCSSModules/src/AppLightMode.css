@@ -1,0 +1,8 @@
+:local(.AppHeader) {
+  background-color: white;
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
